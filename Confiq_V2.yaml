@@ -80,8 +80,6 @@ proxy-providers:
 
 
 proxy-groups:
-
-
 - name: "Traffic-\U0001F1EE\U0001F1E9"
   type: select
   disable-udp: false
