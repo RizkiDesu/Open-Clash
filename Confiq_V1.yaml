@@ -400,6 +400,7 @@ profile:
   store-fake-ip: true
 tproxy-port: 7895
 rules:
+- RULE-SET,Direct,DIRECT
 - DST-PORT,7895,REJECT
 - DST-PORT,7892,REJECT
 - DST-PORT,7895,REJECT
