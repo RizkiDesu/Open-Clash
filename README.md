@@ -1,2 +1,2 @@
 # Open-Clash
-Konfiq STB Open clash
+Konfiq STB OpenWrt Open clash
