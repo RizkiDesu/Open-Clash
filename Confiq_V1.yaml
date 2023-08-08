@@ -425,6 +425,10 @@ rules:
 - RULE-SET,Reject,REJECT
 - MATCH,GLOBAL
 rule-providers:
+  Direct:
+    type: file
+    behavior: classical
+    path: "./rule_provider/direct.yaml"
   Reject:
     type: file
     behavior: classical
