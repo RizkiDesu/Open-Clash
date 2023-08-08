@@ -1,2 +1,2 @@
 # Open-Clash
-Konfiq STB Open clah 
+Konfiq STB Open clash
