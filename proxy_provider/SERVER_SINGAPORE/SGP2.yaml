@@ -1,0 +1,14 @@
+proxies:
+- name: Akun_Trojan_WS
+  server: bug.com
+  port: 443
+  type: trojan
+  password: password
+  network: ws
+  sni: server
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: server
