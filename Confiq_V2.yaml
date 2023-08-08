@@ -77,22 +77,20 @@ proxy-providers:
       interval: 10
 
 
-
-
 proxy-groups:
 - name: "Traffic-\U0001F1EE\U0001F1E9"
   type: select
   disable-udp: false
   proxies:
   - INDONESIA_1
-  - INDONESIA_2
-  - INDONESIA_3
-  - INDONESIA_4
-  - INDONESIA_5
   - LB_INDONESIA_1
+  - INDONESIA_2
   - LB_INDONESIA_2
+  - INDONESIA_3
   - LB_INDONESIA_3
+  - INDONESIA_4
   - LB_INDONESIA_4
+  - INDONESIA_5
   - LB_INDONESIA_5
   url: https://cp.cloudflare.com/generate_204
   interval: '10'
@@ -102,14 +100,14 @@ proxy-groups:
   disable-udp: false
   proxies:
   - SINGAPORE_1
-  - SINGAPORE_2
-  - SINGAPORE_3
-  - SINGAPORE_4
-  - SINGAPORE_5
   - LB_SINGAPORE_1
+  - SINGAPORE_2
   - LB_SINGAPORE_2
+  - SINGAPORE_3
   - LB_SINGAPORE_3
+  - SINGAPORE_4
   - LB_SINGAPORE_4
+  - SINGAPORE_5
   - LB_SINGAPORE_5
   url: https://cp.cloudflare.com/generate_204
   interval: '10'
@@ -331,6 +329,7 @@ proxy-groups:
   - Akun_IDN5
   url: https://cp.cloudflare.com/generate_204
   interval: '10'
+
 
 - name: LB_SINGAPORE_1
   type: load-balance
