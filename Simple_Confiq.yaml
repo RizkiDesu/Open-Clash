@@ -14,9 +14,9 @@ proxies:
   tls: false
   network: ws
   ws-opts:
-    path: /PATH_AKUN_VPN
+    path: /PATH_AKUN_VPN_VMESS
     headers:
-      Host: HOST_AKUN_VPN
+      Host: HOST_AKUN_VPN_VMESS
 
 proxy-groups:
 - name: Universal
