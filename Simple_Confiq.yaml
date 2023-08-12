@@ -2,7 +2,7 @@
 
 
 proxies:
-- name: Akun_VPN_VMESS_WS
+- name: Akun_VPN
   type: vmess
   server: BUG.COM
   port: 80
